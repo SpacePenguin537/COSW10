@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Take 5 Instructions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style media="screen">
+      body{
+        background-color: #fbd41d;
+        margin: 0 5%;
+        font-size: 100%;
+      }
+      h1{
+        font-size: 3em;
+        color: #C8070A;
+        font-family: 'Rancho', cursive;
+        border: 4px #102990 solid;
+        padding: 1%;
+        background-color: #8694CD;
+        text-align: center;
+      }
+      h2{
+        color: #102990;
+        font-family: 'Rancho', cursive;
+      }
+      p{
+        font-family: 'Roboto', sans-serif;
+      }
+      ol{
+        font-family: 'Roboto', sans-serif;
+      }
+      img{
+        border: 8px #C8070A solid;
+        margin: 1px 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>How to play Take 5</h1>
+    <h2>Game Description</h2>
+    <p>"Take 5", also known by its original German name "6 Nimmt!", is a game for 2-10 players by Wolfgang Kramer. The objective is to score the least penalty points, or bulls, by the end of the game.</p>
+    <h2>Set-Up</h2>
+    <ol>
+      <li>Shuffle the deck and deal 10 cards face-down to each player. Players are allowed to look at their own hand but not the cards of others.</li>
+    </ol>
+      <img src="Photos/Hand.png" width="400" alt="Hand of 10 cards">
+    <ol start=2>
+      <li>Deal 4 cards face-up to create 4 rows in the center of the table.</li>
+    </ol>
+    <img src="Photos/RowStart.png" width="400" alt="Column of 4 cards making up 4 rows">
+    <ol start=3>
+      <li>If cards are left over, place the remaining deck aside; It will not be used until the next round.</li>
+    </ol>
+    <img src="Photos/Deck.png" width="400" alt="Remaining deck with X over it">
+    <ol start=4>
+      <li>Make sure every player understands the 2 aspects of a card: the number and the penalty point(s).</li>
+    </ol>
+    <img src="Photos/Card.png" width="400" alt="Description of card">
+    <h2>Playing the Game</h2>
+    <ol>
+      <li>Every player chooses <strong>one</strong> card from their hand and places it <strong>face-down</strong> in front of them. After everyone has placed a card down, everyone simultaneously flips their card over.</li>
+    </ol>
+    <img src="Photos/CardSelect.png" width="400" alt="One chosen card face-down per player">
+    <ol start=2>
+      <li>The player who revealed the card with the lowest number goes first. They must add the card to the end of one of the four rows (to the right of the last card in the row) by following two rules:</li>
+      <ol type="a">
+        <li>The number on the card played must be higher than the card at the end of the row so that the numbers in a row ascend from left to right.</li>
+        <li>If the number on the card is greater than multiple ends of the row cards, it must be played on the number it is the closest to.</li>
+      </ol>
+    </ol>
+    <img src="Photos/CardReveal.png" width="400" alt="One chosen card face-up per player">
+    <img src="Photos/RowAdd.png" width="400" alt="First player goes, 31 card goes to second row">
+    <ol start=3>
+      <li>After the first player goes, the player with the second-lowest card goes. This continues until all the revealed cards have been played, ending the first turn. The process is repeated for 10 turns until all cards in players' hands have been played.</li>
+    </ol>
+    <img src="Photos/FirstTurn.png" width="400" alt="First turn ends, 56 and 73 go to third row in that order">
+    <ol start=4>
+      <li>When a player plays the <strong>sixth card in a row</strong>, they must <strong>pick up the other 5 cards in a row and add them to a separate Bull Pile.</strong> The card they played then replaces the first card in that row.</li>
+    </ol>
+    <img src="Photos/Take5.png" width="400" alt="55 card becomes 6th card in Row #1">
+    <img src="Photos/Take5Result.png" width="400" alt="55 card becomes 1st card in Row #1, previous cards added to Bull Pile">
+    <ol start=5>
+      <li>When a player plays a card with a number lower than any of the row-end cards, they must <strong>choose a row and take all its cards,</strong> adding them to their Bull Pile. The card they played then replaces the first card in that row.</li>
+    </ol>
+    <img src="Photos/LowCard.png" width="400" alt="30 card played, too low for any row">
+    <img src="Photos/LowCardResult.png" width="400" alt="30 card becomes 1st card in Row #4, previous cards added to Bull Pile">
+    <h2>Scoring</h2>
+    <p>After the round ends (all cards have been played), every player counts how many penalty points they've acquired (each bullhead is <strong>one</strong> penalty point). If a player has reached <strong>66 or more penalty points</strong> (points accumulate between rounds, they do not reset), the game ends and the player with the least amount of penalty points wins! If the point limit has not been met, a new round is started by shuffling all the cards together and dealing 10 to each player. Alternatively, a different point goal or a fixed number of rounds can be set before the game begins.</p>
+    <img src="Photos/Points.png" width="400" alt="Bull Points tallied up, winner declared">
+  </body>
+</html>
