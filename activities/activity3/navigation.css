@@ -1,0 +1,61 @@
+body{
+  display: block;
+  margin: 0;
+  background-color: #4280d7;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  padding-left: 20px;
+  line-height: 1.5em;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+  background-color: #5094fc;
+  text-align: center;
+}
+ul li{
+  margin: .75em 0;
+}
+li{
+  display: inline;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 55px;
+}
+li a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px 20px;
+}
+li a:hover{
+  background-color: #4588e5;
+}
+input[type=text]{
+  padding: 20px;
+  border: none;
+  background-color: #4588e5;
+  background-image: url(search-glass.png);
+  background-position: 15px 15px;
+  background-repeat: no-repeat;
+  padding-left: 60px;
+  margin-bottom: 20px;
+  color: white;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.logo{
+  background-color: #5094fc;
+  background-image: url(logo.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.logo:hover{
+  background-size: 120% 120%;
+}
