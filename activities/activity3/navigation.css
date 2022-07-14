@@ -1,21 +1,22 @@
 body{
-  display: block;
-  margin: 0;
   background-color: #4280d7;
-  padding: 0;
+  color: #ffffff;
+  display: block;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 nav{
   margin: 0;
 }
 ul{
-  list-style-type: none;
-  padding-left: 20px;
-  line-height: 1.5em;
+  background-color: #5094fc;
   font-size: 1em;
   font-weight: normal;
+  line-height: 1.5em;
+  list-style-type: none;
   margin: 0;
-  background-color: #5094fc;
+  padding-left: 20px;
   text-align: center;
 }
 ul li{
@@ -23,39 +24,43 @@ ul li{
 }
 li{
   display: inline;
-  font-size: 1.2em;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
   line-height: 55px;
 }
 li a{
-  text-decoration: none;
   color: #ffffff;
   padding: 20px 20px;
+  text-decoration: none;
 }
-li a:hover{
+a.background:hover, a.background:active{
   background-color: #4588e5;
 }
 input[type=text]{
-  padding: 20px;
-  border: none;
   background-color: #4588e5;
   background-image: url(search-glass.png);
   background-position: 15px 15px;
   background-repeat: no-repeat;
-  padding-left: 60px;
-  margin-bottom: 20px;
-  color: white;
-  margin-top: 8px;
-  margin-right: 16px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
   font-size: 17px;
+  margin: 8px 16px;
+  padding: 20px;
+  padding-left: 60px;
+}
+::placeholder{
+  color: #ffffff;
 }
 .logo{
   background-color: #5094fc;
   background-image: url(logo.png);
-  background-position: 0 0;
+  background-position: 100 0;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 90% 90%;
+  margin-right: 9px;
+  padding: 10px 55px;
 }
-.logo:hover{
-  background-size: 120% 120%;
+a.logo:hover, a.logo:active{
+  background-size: 100% 100%;
 }
