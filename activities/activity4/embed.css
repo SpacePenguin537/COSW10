@@ -1,0 +1,36 @@
+body{
+  background-color: #b9fce7;
+}
+h1, h2{
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  text-align: center;
+}
+header img{
+  width: 20em;
+}
+iframe{
+  margin: 1% 5%;
+}
+img{
+  width: 100%;
+}
+p{
+  font-family: 'Quicksand', sans-serif;
+}
+section{
+  text-align: center;
+}
+.gallery{
+  width: 100%;
+}
+.gallery img:hover{
+  border: 1px solid #777;
+}
+.gallery img{
+  border: 1px solid #ccc;
+  float: left;
+  margin: 1%;
+  width: 47%;
+}
