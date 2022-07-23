@@ -1,0 +1,161 @@
+body{
+  background-color: Gainsboro;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+header{
+  background-color: GhostWhite;
+  margin: 0;
+  padding: 2em;
+}
+header:hover {
+  animation: rainbow-background 5s infinite;
+}
+h1{
+  color: black;
+  margin: 0;
+}
+h2{
+  margin: 0;
+  margin-bottom: 0.3em;
+}
+h1:hover {
+  animation: rainbow-text 5s infinite;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+p{
+  margin: 0;
+  padding: 1em;
+}
+section{
+  padding: 1em 0;
+}
+.center{
+  text-align: center;
+}
+#red{
+  background-color: Gainsboro;
+  float: left;
+  transition-property: background;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  width: 50%;
+}
+#red:hover {
+  background-color: red;
+}
+#orange{
+  background-color: Gainsboro;
+  float: right;
+  transition-property: background;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  width: 50%;
+}
+#orange:hover {
+  background-color: orange;
+}
+#yellow{
+  background-color: Gainsboro;
+  clear: both;
+  float: left;
+  transition-property: background;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  width: 50%;
+}
+#yellow:hover {
+  background-color: yellow;
+}
+#green{
+  background-color: Gainsboro;
+  float: right;
+  transition-property: background;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  width: 50%;
+}
+#green:hover {
+  background-color: green;
+}
+#blue{
+  background-color: Gainsboro;
+  clear: both;
+  float: left;
+  transition-property: background;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  width: 50%;
+}
+#blue:hover {
+  background-color: blue;
+}
+#purple{
+  background-color: Gainsboro;
+  float: right;
+  transition-property: background;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  width: 50%;
+}
+#purple:hover {
+  background-color: purple;
+}
+@keyframes rainbow-text {
+  0%{
+    color: black;
+  }
+  15%{
+    color: red;
+  }
+  29%{
+    color: orange;
+  }
+  44%{
+    color: yellow;
+  }
+  58%{
+    color: #00CC00;
+  }
+  73%{
+    color: #0D8CFF;
+  }
+  87%{
+    color: #A300A3;
+  }
+  100%{
+    color: black;
+  }
+}
+@keyframes rainbow-background {
+  0%{
+    background-color: GhostWhite;
+  }
+  15%{
+    background-color: #800000;
+  }
+  29%{
+    background-color: #805300;
+  }
+  44%{
+    background-color: #808000;
+  }
+  58%{
+    background-color: #004D00;
+  }
+  73%{
+    background-color: #000080;
+  }
+  87%{
+    background-color: #44078C;
+  }
+  100%{
+    background-color: GhostWhite;
+  }
+}
