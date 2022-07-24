@@ -1,0 +1,213 @@
+body{
+  background-color: #8ED1FC;
+  margin: 0;
+}
+form{
+  padding: 1em;
+}
+header{
+  background-color: #FFE5BF;
+  font-family: 'Poppins', sans-serif;
+}
+header h1{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+header p{
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 2em;
+  text-align: center;
+}
+header img{
+  height: 100%;
+}
+h1{
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+h2{
+  clear: both;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+img{
+  width: 100%;
+}
+input{
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+input[type=date]{
+  margin-left: 0;
+  margin-right: 0;
+}
+input[type=submit]{
+  margin: 0;
+  width: 50%;
+}
+label{
+  font-family: 'Poppins', sans-serif;
+}
+li{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  width: 100%;
+}
+main{
+  margin: 2% 4%;
+}
+nav{
+  margin: 0;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  margin: 1.5em 2em;
+}
+select{
+  font-family: 'Poppins', sans-serif;
+  padding: 0.5em;
+  width: 37%;
+}
+table, th, td{
+  border: 0.25em solid #7D6957;
+  border-collapse: collapse;
+  text-align: center;
+}
+table{
+  border: 0.5em solid #7D6957;
+  width: 40%;
+}
+th, td{
+  padding: 1em;
+}
+th{
+  background-color: #FFE5BF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+}
+td{
+  background-color: #E8D3A2;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+textarea{
+  font-family: 'Poppins', sans-serif;
+  resize: none;
+  width: 100%;
+}
+nav ul{
+  background-color: #F78DA7;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+nav li{
+  display: inline;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 1.5em;
+  line-height: 55px;
+}
+nav li a{
+  color: black;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+nav li a:hover{
+  background-color: #F7527A;
+  color: white;
+}
+#bridge{
+  background-color: #759DE6;
+  border: 0.5em solid #818DFE;
+  float: left;
+  width: 46%;
+}
+#fish{
+  background-color: #759DE6;
+  border: 0.5em solid #818DFE;
+  float: right;
+  width: 46%;
+}
+#paint{
+  background-color: #759DE6;
+  border: 0.5em solid #818DFE;
+  clear: both;
+  float: left;
+  width: 46%;
+  margin-top: 2em;
+}
+#prison{
+  background-color: #759DE6;
+  border: 0.5em solid #818DFE;
+  float: right;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  width: 46%;
+}
+#data{
+  clear: both;
+  float: left;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  width: 47%;
+}
+#restaurants{
+  background-color: #FFE5BF;
+  border: 0.5em solid #7D6957;
+  float: right;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  width: 46%;
+}
+#list{
+  background-color: #759DE6;
+  border: 0.5em solid #818DFE;
+  float: left;
+  margin-bottom: 1em;
+  width: 46%;
+}
+#list h2{
+  font-size: 1.5em;
+}
+#list li{
+  font-size: 1.1em;
+}
+#reserve{
+  background-color: #759DE6;
+  border: 0.5em solid #818DFE;
+  float: right;
+  margin-bottom: 1em;
+  width: 46%;
+}
+@media screen and (max-width: 992px){
+  input, input[type=date]{
+    margin: 0;
+    width: 100%;
+  }
+  select{
+    width: 100%;
+  }
+  .column{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 993px){
+  input, input[type=date]{
+    margin: 0;
+    width: 100%;
+  }
+  .column{
+    float: left;
+    margin: 0.3em;
+    width: 47%;
+  }
+}
+.row:after{
+  clear: both;
+}

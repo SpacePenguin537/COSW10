@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>San Francisco</title>
+    <link rel="stylesheet" href="city.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <img src="tour.jpg" alt="San Francisco from far away hill, Golden Gate Bridge in sight" id="introduction">
+      <h1>San Francisco Tour Reservations</h1>
+      <p>Want to go sightseeing all around San Francisco? Or visit Alcatraz Island? Why not both? However you want to travel, we have the perfect tour for you! Book us for a fun trip around the city and/or island, learn some hidden secrets of the city, and be shown the views all around!</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="city.html">Home</a></li>
+        <li><a href="city.html#attractions">Attractions</a></li>
+        <li><a href="city.html#data">City Data</a></li>
+        <li><a href="city.html#restaurants">Restaurants</a></li>
+        <li><a href="#list">Reservations</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Reservations</h1>
+      <section id="list">
+        <h2>Tours Available</h2>
+        <ul>
+          <li>City Tour: Take a fun half-day tour around the city! Travel around on a tour bus, seeing all the major attractions, and stopping at grand viewpoints to take the perfect photos! The perfect tour for the whole family!</li>
+          <li>Alcatraz Tour: Think you could have survived in Alcatraz Federal Penitentiary? Take a trip to the island to witness the real living quarters inmates faced! Audio tours are provided to everyone inside the prison so you can learn everything there is to know about Alcatraz. Don't forget to visit the gift shop!</li>
+          <li>Package Tour: Can't decide which tour you want to go on? Why should you have to choose? With this package, you'll start the day by visiting Alcatraz in the morning, then meeting up with your tour guide in the afternoon. Then, you'll enjoy the city bus tour before ending the day at the Boiling Hot Pot buffet. For the biggest tourists, this is the perfect tour for you!</li>
+        </ul>
+      </section>
+      <div id="reserve">
+        <form class="reservation" action="#" method="post">
+          <div class="row">
+            <div class="column">
+              <label>
+                First Name: <input type="text" name="fname" required>
+              </label>
+            </div>
+            <div class="column">
+              <label>
+                Last Name: <input type="text" name="lname" required>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <label>
+                Street Address: <input type="text" name="street">
+              </label>
+            </div>
+            <div class="column">
+              <label>
+                City: <input type="text" name="city">
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <label>
+                State: <input type="text" name="state">
+              </label>
+            </div>
+            <div class="column">
+              <label>
+                Zipcode: <input type="text" name="zip">
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <label>
+                Email Address: <input type="email" name="email" required>
+              </label>
+            </div>
+            <div class="column">
+              <label>
+                Phone Number: <input type="text" name="phone">
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <label>
+                Age Select:
+                  <select name="age">
+                  <option value="Under 18">Under 18</option>
+                  <option value="18-25">18-25</option>
+                  <option value="26-35">26-35</option>
+                  <option value="36-45">36-45</option>
+                  <option value="46-55">46-55</option>
+                  <option value="56+">56+</option>
+                </select>
+              </label>
+            </div>
+            <div class="column">
+              <label>
+                Tour Select:
+                  <select name="tour">
+                    <option value="City Tour">City Tour</option>
+                    <option value="Alcatraz Tour">Alcatraz Tour</option>
+                    <option value="Package Tour">Package Tour</option>
+                  </select>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <label>
+              Day of Reservation: <input type="date" name="date">
+            </label>
+          </div>
+          <div class="row">
+            <label>
+              Comments? <textarea name="comment" rows="4" cols="20"></textarea>
+            </label>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
