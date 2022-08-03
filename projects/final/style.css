@@ -29,7 +29,6 @@ strong{
   color: #FFB719;
   font-family: 'Mukta', sans-serif;
   font-size: 5em;
-  margin: 0;
   padding: 0 12%;
   position: relative;
 }
@@ -143,7 +142,7 @@ ul{
 .big-column{
   background-color: #5A2B8F;
   float: left;
-  margin: 1% 3% 3% 1%;
+  margin: 1% 3% 2% 1%;
   width: 68%;
 }
 .row:after{
@@ -185,7 +184,7 @@ ul{
   }
   .big-column{
     float: left;
-    margin: 1% 1% 5%;
+    margin: 1% 1% 6%;
     width: 98%;
   }
 }
